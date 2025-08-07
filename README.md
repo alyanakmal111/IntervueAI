@@ -27,9 +27,6 @@ IntervueAI is a comprehensive interview preparation platform that empowers candi
 - **Database:** MongoDB (Cloud)
 - **File Storage:** Cloudinary (for uploading and serving profile images)
 - **API Client:** Axios
-- **Deployment:**
-  - Frontend: [Vercel](https://vercel.com)
-  - Backend: [Render.com](https://render.com)
 - **CRON Job:** Keeps the backend server active by sending a request every 14 minutes (configured in `config/cron.js`)
 
 ---
@@ -204,7 +201,7 @@ The backend is located in the `backend` directory and uses Node.js with Express.
    CLOUDINARY_CLOUD_NAME=your_cloud_name
    CLOUDINARY_API_KEY=your_api_key
    CLOUDINARY_API_SECRET=your_api_secret
-   API_URL=your_render.com_api_deployed_url
+   API_URL=http://localhost:5000
    ```
 
 4. Start the backend server:
@@ -263,10 +260,10 @@ The frontend will run on `http://localhost:5173`.
 
 | Interview Prep Page                                                               | Interview Prep With Explanations/Add Note                                                                                                                                                                                      |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![Interview Prep](/frontend/intervueai/src/assets/Images/Interview-prep-page.png) | ![Explanation 1](/frontend/intervueai/src/assets/Images/Explanation-1.png)<br/>![Explanation 2](/frontend/intervueai/src/assets/Images/Explanation-2.png)<br/>![Add Note](/frontend/intervueai/src/assets/Images/Add-Note.png) |
+| ![Interview Prep](/frontend/src/assets/Images/Interview-prep-page.png) | ![Explanation 1](/frontend/src/assets/Images/Explanation-1.png)<br/>![Explanation 2](/frontend/src/assets/Images/Explanation-2.png)<br/>![Add Note](/frontend/src/assets/Images/Add-Note.png) |
 
 | Full PDF                                                   | Deleted Question PDF                                       | Export as PDF                                              |
 | ---------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
-| ![PDF-1](/frontend/intervueai/src/assets/Images/PDF-1.png) | ![PDF-2](/frontend/intervueai/src/assets/Images/PDF-2.png) | ![PDF-3](/frontend/intervueai/src/assets/Images/PDF-3.png) |
+| ![PDF-1](/frontend/src/assets/Images/PDF-1.png) | ![PDF-2](/frontend/src/assets/Images/PDF-2.png) | ![PDF-3](/frontend/src/assets/Images/PDF-3.png) |
 
 ---
