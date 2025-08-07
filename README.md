@@ -259,7 +259,7 @@ The frontend will run on `http://localhost:5173`.
 
 | Landing Page                                                     | Login/Signup/Dashboard Page                                                                                                                                                                             |
 | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Home](/frontend/intervueai/src/assets/Images/Landing-page.png) | ![Login](/frontend/intervueai/src/assets/Images/Login.png)<br/>![Signup](/frontend/intervueai/src/assets/Images/Signup.png)<br/>![Dashboard](/frontend/intervueai/src/assets/Images/Dashboard-page.png) |
+| ![Home](/frontend/src/assets/Images/Landing-page.png) | ![Login](/frontend/src/assets/Images/Login.png)<br/>![Signup](/frontend/src/assets/Images/Signup.png)<br/>![Dashboard](/frontend/src/assets/Images/Dashboard-page.png) |
 
 | Interview Prep Page                                                               | Interview Prep With Explanations/Add Note                                                                                                                                                                                      |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
